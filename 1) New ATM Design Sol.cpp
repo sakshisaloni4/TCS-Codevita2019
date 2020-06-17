@@ -30,6 +30,7 @@ int main()
 				for(l=0;l<=th;l++)
 				{
 					sum3=sum2+l*1000;
+					//checking if the required sum is equal to given amount
 					if(sum3==max&&(i+j+k+l)<=n&&(i+j+k+l)>co)
 					co=i+j+k+l;
 					if(sum3>max)
